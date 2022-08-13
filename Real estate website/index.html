@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- .............Navigation content/Header Contant........................... -->
+
+    <div id="main-nav">
+        <nav class="navbar" role="navigation">
+            <!-- <div class="container"> -->
+
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img srcset="Assest/Logo/Logo.jpg" alt="Real Estate">
+                    </a>
+                </div>
+
+                <ul class="nav-area">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#properties">Properties</a></li>
+                    <li><a href="#Agent">Agent</a></li>
+                    <li><a href="#Contact">Contect</a></li>
+                    <li><a href="#SignIn">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- .....................................Chat with us.............................. -->
+    <section id="chat"></section>
+
+    <button class="open-button" onclick="openForm()">Chat</button>
+
+    <div class="chat-popup" id="myForm">
+        <form method="post" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+
+    <!--.................................. Main img....................... -->
+
+    <section id="home">
+        <div class="banner-card">
+            <img src="Assest/Img/Main img.jpg" alt="">
+
+
+        </div>
+        </div>
+    </section>
+
+    <!-- ...................................about us and slider............................. -->
+
+
+    <!-- ................................................About us.............................. -->
+    <section id="about" style="padding-top: 179px;">
+
+        <div class="about-wrapper">
+            <div class="about-txt">
+                <h1 class="about-head">Welcome to real estate</h3>
+                    <h2 class="about-desc">We are in this business since last 10 years</h2>
+                    <p class="about-para">
+                    <p>India's largest real esatate company</p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+                    inventore quam, amet dicta quis, ipsum in iste voluptate dolore quo,
+                    dignissimos repudiandae quod quisquam earum error dicta nisi
+                    voluptatibus perferendis maiores! Aliquid veniam aliquam dolores.
+                    </p>
+            </div>
+        </div>
+
+        <!-- ......................................Slider..............................-->
+
+
+
+        <div id="slider">
+
+            <ul id="slideWrap">
+                <li><img src="Assest/Img/Slide show pic 1.jpeg" alt="Not Found"></li>
+                <li><img src="Assest/Img/Slide show pic 2.jpeg" alt="Not Found"></li>
+                <li><img src="Assest/Img/Slide show pic 3.jpeg" alt="Not Found"></li>
+            </ul>
+
+            <a id="prev" href="#">&#8810;</a>
+            <a id="next" href="#">&#8811;</a>
+    </section>
+    </div>
+
+
+
+    <!-- ....................................................Properties.................... -->
+
+    <section id="properties">
+        <div>
+            <h2 style="text-align: center; font-size: x-large; padding: 30px;">Properties For sale</h2>
+        </div>
+        <div class="sale">
+            <div class="picture">
+                <img src="Assest/Img/sale 1.jpg" alt="Not Found">
+
+                <h2 style="    font-size: 25px;
+                color: #555;
+                font-weight: 500;">Iskon</h2>
+
+                <p style="font-size: 15px;
+                color: green;
+                font-weight: 600;">250,000$</p>
+
+                <p style="font-size: 20px;
+                color: #555;
+                font-weight: 500;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minima est maxime
+                    soluta nisi
+                    repudiandae atque odio   deleniti dicta sapiente nemo molestiae quibusdam officia
+                    perferendis, possimus excepturi!</p>
+            </div>
+            <div class="picture">
+                <img src="Assest/Img/sale 2.jpg" alt="Not Found">
+                <h2 style="    font-size: 24px;
+                color: #555;
+                font-weight: 500;">Satellite</h2>
+
+                <p style="font-size: 15px;
+                color: green;
+                font-weight: 600;">275,000$S</p>
+
+                <p style="font-size: 20px;
+                color: #555;
+                font-weight: 500;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum debitis magnam
+                    harum amet non
+                    consequatur qui officiis aspernatur quis ea, sit quaerat voluptatibus veniam expedita dolorum aut
+                    blanditiis distinctio nisi!</p>
+            </div>
+            <div class="picture">
+                <img src="Assest/Img/sale 3.jpg" alt="Not Found">
+                <h2 style="    font-size: 24px;
+                color: #555;
+                font-weight: 500;">Central Ahmedabad</h2>
+
+                <p style="font-size: 15px;
+                color: green;
+                font-weight: 600;">300,000$</p>
+
+                <p style="font-size: 20px;
+                color: #555;
+                font-weight: 500;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, in
+                    velit? Rerum cumque molestiae
+                    repellat illo possimus quisquam quasi sunt suscipit quia impedit fugiat, officia ipsum adipisci!
+                    Itaque, sit adipisci?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ..................................................Agent............................. -->
+    <section id="Agent">
+        <div>
+            <h2 style="text-align: center; font-size: x-large; padding: 30px; padding-right: 450px;">Agent</h2>
+        </div>
+        <div class="Agent-container container">
+            <div class="a-box">
+                <div class="a-star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="a-data">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+                    voluptatum facere eius perferendis error eos.
+                </p>
+
+                <div class="a-img">
+                    <img src="Assest/Img/Agent 1.jpg" alt="" />
+                </div>
+                <p class="a-name">Mark</p>
+            </div>
+
+            <div class="a-box">
+                <div class="a-star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="a-data">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+                    voluptatum facere eius perferendis error eos.
+                </p>
+                <div class="a-img">
+                    <img src="Assest/Img/Agent 2.jpg" alt="" />
+                </div>
+                <p class="a-name">Akshay</p>
+            </div>
+
+            <div class="a-box">
+                <div class="a-star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="a-data">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+                    voluptatum facere eius perferendis error eos.
+                </p>
+                <div class="a-img">
+                    <img src="Assest/Img/Agent 3.jpg" alt="" />
+                </div>
+                <p class="a-name">Brijesh</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ...................................Contact us........................... -->
+    <section id="Contact">
+        <h2>Contact Us</h2>
+        <p style="font-size: medium;">Fill up your detail here, we will contact you soon</p>
+
+        <div class="container">
+            <form method="post">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="country">Country</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="Rajkot">Rajkot</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Surat">Surat</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2>Real Estate Website &copy; all rights reserved.</h2>
+    </footer>
+
+
+</body>
+
+</html>
